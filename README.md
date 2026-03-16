@@ -1,10 +1,10 @@
-# 🚀[您的项目名称, 例如: SwiftSwap-TC / 极速换刀系统]
+# 🚀[Simple-Multi-Hotend]
 
 [![License](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](LICENSE)
 [![Release](https://img.shields.io/github/v/release/yourusername/yourproject)](https://github.com/yourusername/yourproject/releases)
 [![Klipper](https://img.shields.io/badge/Firmware-Klipper-red.svg)](https://www.klipper3d.org/)
 
-**[项目名称]** 是一种创新的 FDM 3D 打印多材料/多色解决方案。通过在打印过程中 **后台自动预热** 并 **动态更换装载不同耗材的热端（Toolhead）**，实现真正的“零等待”极速多材料打印。
+[Simple-Multi-Hotend]是一种FDM3D打印多材料/多色解决方案。通过在打印打印过程中切换预热好的装载不同耗材的热端实现快速多材料打印
 
 ---
 
@@ -46,6 +46,13 @@
 
 ## 🛠️ 安装与配置指南 (Installation & Setup)
 
-1. **克隆仓库**:
-   ```bash
-   git clone https://github.com/yourusername/yourproject.git
+一. 配置文件修改
+   1、将toolchange.cfg添加到fluidd里
+   2、printer.cfg需要进行一下修改
+   3、
+二. 切片软件修改
+   1、完成配置文件修改后测试T0、T1、UNTOOL等命令，出现切换失败等异常情况调整停靠坞特征点坐标解决，切换完美后开始进行切片软件配置。
+   2、orca切片软件→打印机设置→打印机G-code→修改打印机起始G-code和耗材丝更换G-code。
+   3、打印机设置→材料→按自己热端数设置更多挤出机。
+   3、打印机设置→挤出机1、2、3……→设置回抽参数。
+   4、工艺→材料→设置擦料塔和Ooze预防（自动预热）参数。
