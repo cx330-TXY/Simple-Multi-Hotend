@@ -18,7 +18,7 @@
 * **主板** 由于采用有线加热，每个热端模块具有一个加热片和热敏，可利用主板空余接口来扩展少量热端模块，若需要扩展更多热端模块需要制作热端模块扩展板来增加主板的加热棒接口和热敏接口。
 
 ### 软件
-* **固件** 整体热端切换通过klipper宏命令实现，若需使用喷嘴偏移量校准则需要下载thttps://github.com/viesturz/klipper-toolchanger插件，配合自动校准宏来实现。
+* **固件** 整体热端切换通过klipper宏命令实现，若需使用喷嘴偏移量校准则需要下载[toolchange](https://github.com/viesturz/klipper-toolchanger)插件，配合自动校准宏来实现。
 * **切片软件**：采用Orcaslicer
 
 ## 组成概览
