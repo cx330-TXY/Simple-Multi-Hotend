@@ -1,8 +1,4 @@
-# 🚀[Simple-Multi-Hotend]
-
-[![License](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](LICENSE)
-[![Release](https://img.shields.io/github/v/release/yourusername/yourproject)](https://github.com/yourusername/yourproject/releases)
-[![Klipper](https://img.shields.io/badge/Firmware-Klipper-red.svg)](https://www.klipper3d.org/)
+# [Simple-Multi-Hotend]
 
 [Simple-Multi-Hotend]是一种FDM3D打印多材料/多色解决方案。通过在打印打印过程中切换预热好的装载不同耗材的热端实现快速多材料打印。其目标是实现尽可能低成本且简单稳定的多材料打印，为了实现较高的适配性，热端切换只需要打印头XY轴运动就可实现，且切换结构与热端无关，可以通过修改热端固定件等实现其他热端的兼容。
 
