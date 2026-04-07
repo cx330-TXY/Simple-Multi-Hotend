@@ -102,7 +102,9 @@
    <img width="843" height="191" alt="image" src="https://github.com/user-attachments/assets/56e46f3e-005c-4430-9438-d748d005f5c8" />
 
    
-   2. 工艺栏里开启擦拭塔（如果料和参数调得好，且模型不涉及快速微小挤出，可以关掉尝试无擦料塔打印）和自动预热。
+   2. 工艺栏里开启擦拭塔（如果料和参数调得好，且模型不涉及快速微小挤出，可以关掉尝试无擦料塔打印）和自动预热（Ooze）。
+   <img width="500" height="698" alt="image" src="https://github.com/user-attachments/assets/088be46a-83d2-4e2a-8d6e-6a9598b6097a" />
+
 
 ## 注意事项
 - 打印件采用abs打印，4层墙，60%填充。
