@@ -96,7 +96,12 @@
    2. 归位xyz，调平完成后，固定好校准器，点击T0抓去第一个热端，移动至喷嘴尖端刚好位于校准器中心正上方距离1mm左右，记下这个时候的坐标，填入calibration.cfg里，然后还需要在里面自己定义一个停靠坞范围外的安全位置，防止校准的时候撞到停靠坞里的其他热端。
    3. 坐标设置好后输入    可以校准指定热端（需要先校准T0），输入    可以校准全部（需要设定好有哪些热端）。
 ### orcaslicer
-   1. 修改打印机gcode里起始和耗材丝更换gcode、设置更多挤出机、设置挤出机参数。
+   1. 修改打印机gcode里起始和耗材丝更换gcode、设置更多挤出机、设置挤出机回抽。
+   <img width="853" height="269" alt="image" src="https://github.com/user-attachments/assets/652936db-8a7f-43fd-bb4a-4a818c44ef10" />
+   <img width="856" height="266" alt="image" src="https://github.com/user-attachments/assets/da80e5cb-8308-4561-920f-c88797dbb9b4" />
+   <img width="843" height="191" alt="image" src="https://github.com/user-attachments/assets/56e46f3e-005c-4430-9438-d748d005f5c8" />
+
+   
    2. 工艺栏里开启擦拭塔（如果料和参数调得好，且模型不涉及快速微小挤出，可以关掉尝试无擦料塔打印）和自动预热。
 
 ## 注意事项
